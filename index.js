@@ -134,7 +134,6 @@ module.exports =  function outputJSON (){
             Construct your json object
          */
         var obj = function (){
-
             return { 	"name" : randomPerson(),
                 "desc" : styledString("sentence", 14),
                 "title" : styledString("title", 5),
